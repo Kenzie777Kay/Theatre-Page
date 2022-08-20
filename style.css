@@ -1,0 +1,164 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+    margin:0px
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    justify-content:space-around;
+    margin:0px;
+    text-decoration:none;
+}
+
+nav{
+    display:stretch;
+    color:white;
+    background-color: black;
+    height:100px;
+    
+}
+
+.navbar-name {
+    font-size:50px;
+    text-decoration: underline;
+}
+
+.nav-item{
+    color:white;
+    justify-content: flex-end;
+   
+}
+
+a {
+    text-decoration:none;
+    color:lightcoral;
+}
+
+a:hover {
+    color:tomato;
+}
+
+.main-image{
+    width:100%;
+}
+
+.main-image h1{
+    display:flex;   
+    font-size: 75px;
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-pic{
+    width:100%
+}
+.show-grid{
+    height:1400px;
+    width:100%
+   
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: minmax(150px, auto);
+    margin:100px;
+    gap: 20px;
+    justify-content:center;
+
+   
+
+}
+
+.grid-image{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
+
+.button{
+    background-color: tomato;
+    border: black;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.grid-item-1{
+    font-size:50px;
+}
+
+.grid-item-4{
+    padding:75px;
+}
+
+.grid-item-7{
+    padding:75px;
+}
+
+.grid-item-10{
+    padding:75px;
+}
+
+.grid-item-13{
+    padding:75px;
+}
+
+footer{
+   background-color: black;
+   color:white;
+}
+
+.end-page{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: rod;
+    padding-top: 30 px;
+    justify-content: space-evenly;
+}
+
+.foothead{
+       font-size: 35px;
+}
+
+
+
+.map{
+    width:150px;
+    display: flex;
+    flex-direction:column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width:25%;
+    font: 0.6em;
+}
+
+.shows{
+    display: flex;
+    flex-direction:column;
+    width:25%;
+}
+
+.social{
+    display:flex;
+    flex-direction:column;
+    width: 25%;
+
+}
